@@ -11,7 +11,7 @@ for test_case in range(1,T+1):
         num_list.extend([max_num,min_num])
     result.append((test_case, num_list))   
 for t, res in result: #결과 출력
-    print(f"#{t}";, end=" ")
+    print(f"#{t}", end=" ")
     for r in res:
         print(r, end=" ")
     print()
