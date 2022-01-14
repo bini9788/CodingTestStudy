@@ -14,4 +14,4 @@ for test_case in range(1, T + 1):
     # 다 색칠 후 숫자가 3인 것을 count
     purple_count=sum([row.count(3) for row in grid])
     result.append((test_case, purple_count))
-[print(f&quot;#{t} {cnt}&quot;) for t, cnt in result]
+[print(f"#{t} {cnt}") for t, cnt in result]
